@@ -5,6 +5,6 @@ const cors=require("cors");
 
 app.use(cors());
 app.use("/api",dataRouter);
-app.listen(process.env.PORT||8080,()=>{
-    console.log("APPLICATION IS RUNNING");
+app.listen(process.env.PORT||8000,()=>{
+    console.log("Testing");
 });
